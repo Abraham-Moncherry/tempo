@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 109, "column": 0}, "map": {"version":3,"sources":["file:///Users/abraham/Developer/Projects/tempo/client/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import NextAuth from \"next-auth\"\nimport GoogleProvider from \"next-auth/providers/google\";\nimport GitHub from \"next-auth/providers/github\"\n\nconst handler = NextAuth({\n  providers: [\n  GoogleProvider({\n    clientId: process.env.GOOGLE_CLIENT_ID,\n    clientSecret: process.env.GOOGLE_CLIENT_SECRET\n  }),\n   GitHub({\n      clientId: process.env.GITHUB_ID!,\n      clientSecret: process.env.GITHUB_SECRET!,\n    }),\n    ],\n  secret: process.env.NEXTAUTH_SECRET,\n})\n\nexport { handler as GET, handler as POST }"],"names":[],"mappings":";;;;;;AAAA;AACA;AACA;;;;AAEA,MAAM,UAAU,IAAA,8LAAQ,EAAC;IACvB,WAAW;QACX,IAAA,4MAAc,EAAC;YACb,UAAU,QAAQ,GAAG,CAAC,gBAAgB;YACtC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAChD;QACC,IAAA,4MAAM,EAAC;YACJ,UAAU,QAAQ,GAAG,CAAC,SAAS;YAC/B,cAAc,QAAQ,GAAG,CAAC,aAAa;QACzC;KACC;IACH,QAAQ,QAAQ,GAAG,CAAC,eAAe;AACrC","debugId":null}}]
+}

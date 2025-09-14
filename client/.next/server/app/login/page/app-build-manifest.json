@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "/login/page": [
+      "static/chunks/919fc_next_dist_7b333adb._.js",
+      "static/chunks/Developer_Projects_tempo_client_app_favicon_ico_mjs_daa02a32._.js",
+      "static/chunks/[root-of-the-server]__b6a8a627._.css",
+      "static/chunks/Developer_Projects_tempo_client_b33e8e0a._.js",
+      "static/chunks/Developer_Projects_tempo_client_app_layout_tsx_9f3a20b6._.js",
+      "static/chunks/919fc_next_dist_client_components_builtin_global-error_c8a2076f.js",
+      "static/chunks/919fc_73f4540b._.js",
+      "static/chunks/Developer_Projects_tempo_client_45a7b30a._.js",
+      "static/chunks/Developer_Projects_tempo_client_app_login_page_tsx_c8a2076f._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_6f84fb4e._.js",
+      "static/chunks/919fc_next_dist_compiled_react-dom_cdf90739._.js",
+      "static/chunks/919fc_next_dist_compiled_next-devtools_index_8336a080.js",
+      "static/chunks/919fc_next_dist_compiled_567e0f3e._.js",
+      "static/chunks/919fc_next_dist_client_327a205f._.js",
+      "static/chunks/919fc_next_dist_5bdc1cb7._.js",
+      "static/chunks/919fc_@swc_helpers_cjs_b0b06e1c._.js",
+      "static/chunks/Developer_Projects_tempo_client_a0ff3932._.js",
+      "static/chunks/turbopack-Developer_Projects_tempo_client_d7fe75ca._.js"
+    ]
+  }
+}
