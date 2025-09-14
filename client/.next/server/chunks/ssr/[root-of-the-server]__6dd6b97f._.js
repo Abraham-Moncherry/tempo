@@ -110,7 +110,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tem
 ;
 ;
 const metadata = {
-    title: "Tempo",
+    title: "tempo",
     description: "Workout tracker"
 };
 function RootLayout({ children }) {

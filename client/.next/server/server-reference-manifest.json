@@ -1,5 +1,21 @@
 {
-  "node": {},
+  "node": {
+    "7fd9ce29855b11ca490455d45eaced19d78d935395": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/app/libs/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "login",
+          "filename": "Developer/Projects/tempo/client/app/libs/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser"
+      },
+      "filename": "Developer/Projects/tempo/client/app/libs/actions/auth.ts",
+      "exportedName": "login"
+    }
+  },
   "edge": {},
   "encryptionKey": "DXV5wPlneCzNGgO/AhTtP+rwwR0jRZKc+lV849n5c9s="
 }

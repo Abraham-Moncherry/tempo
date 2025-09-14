@@ -1,0 +1,14 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/919fc_next_dist_compiled_next-devtools_index_970b9aea.js",
+  "static/chunks/919fc_next_dist_compiled_7cafa12e._.js",
+  "static/chunks/919fc_next_dist_shared_lib_ae3b04bc._.js",
+  "static/chunks/919fc_next_dist_client_b0f09bb5._.js",
+  "static/chunks/919fc_next_dist_e8a1ad4f._.js",
+  "static/chunks/919fc_next_app_66a52530.js",
+  "static/chunks/[next]_entry_page-loader_ts_ac59fd4d._.js",
+  "static/chunks/919fc_react-dom_38d4f426._.js",
+  "static/chunks/919fc_bb822032._.js",
+  "static/chunks/[root-of-the-server]__76c9b40f._.js",
+  "static/chunks/Developer_Projects_tempo_client_pages__app_2da965e7._.js",
+  "static/chunks/turbopack-Developer_Projects_tempo_client_pages__app_5b70ad83._.js"
+])

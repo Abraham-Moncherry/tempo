@@ -1,0 +1,7 @@
+auth
+
+- set up google & github credentials 
+- look into database set up
+- confgure the routes correctly
+- connect the ui compoments to the endpoints
+- sign up page
