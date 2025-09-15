@@ -11,12 +11,8 @@ const mod = __turbopack_context__.x("node:async_hooks", () => require("node:asyn
 
 module.exports = mod;
 }),
-"[project]/Developer/Projects/tempo/client/middleware.ts [middleware-edge] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/Developer/Projects/tempo/client/middleware.ts [middleware-edge] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([]);
-;
- // const protectedRoutes;
 }),
 ]);
 

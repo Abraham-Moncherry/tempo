@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Developer/Projects/tempo/client/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport type { NextApiRequest } from \"next\";\nimport { auth } from \"./app/auth\";\n\n// const protectedRoutes;\n\n"],"names":[],"mappings":";;CAIA,yBAAyB"}}]
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}}]
 }

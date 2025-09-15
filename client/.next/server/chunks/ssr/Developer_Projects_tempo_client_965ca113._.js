@@ -1606,21 +1606,21 @@ function NavUser({ user }) {
                                             alt: user.name
                                         }, void 0, false, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 48,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AvatarFallback"], {
                                             className: "rounded-lg",
-                                            children: "CN"
+                                            children: "T"
                                         }, void 0, false, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 49,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 47,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1631,7 +1631,7 @@ function NavUser({ user }) {
                                             children: user.name
                                         }, void 0, false, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 52,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1639,31 +1639,31 @@ function NavUser({ user }) {
                                             children: user.email
                                         }, void 0, false, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 53,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f40$tabler$2f$icons$2d$react$2f$dist$2f$esm$2f$icons$2f$IconDotsVertical$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconDotsVertical$3e$__["IconDotsVertical"], {
                                     className: "ml-auto size-4"
                                 }, void 0, false, {
                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                            lineNumber: 44,
+                            lineNumber: 43,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                        lineNumber: 43,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuContent"], {
@@ -1685,21 +1685,21 @@ function NavUser({ user }) {
                                                     alt: user.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 69,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AvatarFallback"], {
                                                     className: "rounded-lg",
-                                                    children: "CN"
+                                                    children: "T"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                                    lineNumber: 71,
+                                                    lineNumber: 70,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 68,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1710,7 +1710,7 @@ function NavUser({ user }) {
                                                     children: user.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 73,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1718,29 +1718,29 @@ function NavUser({ user }) {
                                                     children: user.email
                                                 }, void 0, false, {
                                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 74,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 72,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                lineNumber: 67,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuSeparator"], {}, void 0, false, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                lineNumber: 81,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuGroup"], {
@@ -1748,60 +1748,60 @@ function NavUser({ user }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f40$tabler$2f$icons$2d$react$2f$dist$2f$esm$2f$icons$2f$IconUserCircle$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconUserCircle$3e$__["IconUserCircle"], {}, void 0, false, {
                                             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 83,
                                             columnNumber: 17
                                         }, this),
                                         "Account"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                lineNumber: 82,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuSeparator"], {}, void 0, false, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                lineNumber: 88,
+                                lineNumber: 87,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f40$tabler$2f$icons$2d$react$2f$dist$2f$esm$2f$icons$2f$IconLogout$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconLogout$3e$__["IconLogout"], {}, void 0, false, {
                                         fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, this),
                                     "Log out"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                                lineNumber: 89,
+                                lineNumber: 88,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-            lineNumber: 41,
+            lineNumber: 40,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Developer/Projects/tempo/client/components/nav-user.tsx",
-        lineNumber: 40,
+        lineNumber: 39,
         columnNumber: 5
     }, this);
 }
@@ -1823,6 +1823,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tem
 var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$nav$2d$main$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/components/nav-main.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$nav$2d$secondary$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/components/nav-secondary.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$nav$2d$user$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/components/nav-user.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2d$auth$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/node_modules/next-auth/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/components/ui/sidebar.tsx [app-ssr] (ecmascript)");
 "use client";
 ;
@@ -1831,12 +1832,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tem
 ;
 ;
 ;
+;
 const data = {
-    user: {
-        name: "shadcn",
-        email: "m@example.com",
-        avatar: "/avatars/shadcn.jpg"
-    },
     navMain: [
         {
             title: "Dashboard",
@@ -1906,6 +1903,12 @@ const data = {
     ]
 };
 function AppSidebar({ ...props }) {
+    const { data: session } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2d$auth$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"])();
+    const user = {
+        name: session?.user?.name ?? "username",
+        email: session?.user?.email ?? "user@email.com",
+        avatar: session?.user?.image ?? "/avatars/shadcn.jpg"
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Sidebar"], {
         collapsible: "offcanvas",
         ...props,
@@ -1926,7 +1929,7 @@ function AppSidebar({ ...props }) {
                                         className: "h-6 w-6"
                                     }, void 0, false, {
                                         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 124,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1934,33 +1937,33 @@ function AppSidebar({ ...props }) {
                                         children: "tempo"
                                     }, void 0, false, {
                                         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 129,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                                lineNumber: 121,
+                                lineNumber: 123,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                            lineNumber: 117,
+                            lineNumber: 119,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                        lineNumber: 116,
+                        lineNumber: 118,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                    lineNumber: 115,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                lineNumber: 114,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SidebarContent"], {
@@ -1969,7 +1972,7 @@ function AppSidebar({ ...props }) {
                         items: data.navMain
                     }, void 0, false, {
                         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                        lineNumber: 134,
+                        lineNumber: 136,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$nav$2d$secondary$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["NavSecondary"], {
@@ -1977,32 +1980,32 @@ function AppSidebar({ ...props }) {
                         className: "mt-auto"
                     }, void 0, false, {
                         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                        lineNumber: 135,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                lineNumber: 133,
+                lineNumber: 135,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$ui$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SidebarFooter"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$components$2f$nav$2d$user$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["NavUser"], {
-                    user: data.user
+                    user: user
                 }, void 0, false, {
                     fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                    lineNumber: 138,
+                    lineNumber: 140,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-                lineNumber: 137,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Developer/Projects/tempo/client/components/app-sidebar.tsx",
-        lineNumber: 113,
+        lineNumber: 115,
         columnNumber: 5
     }, this);
 }
