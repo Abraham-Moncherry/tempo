@@ -1,0 +1,36 @@
+{
+  "node": {
+    "7f91c54ede10377bcf7280cfd7784b11595b2f0628": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "login",
+          "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser"
+      },
+      "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts",
+      "exportedName": "login"
+    },
+    "7f642aded3dfae39a97df57c097b06eeb1af3a34a3": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logout",
+          "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "action-browser"
+      },
+      "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts",
+      "exportedName": "logout"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "DXV5wPlneCzNGgO/AhTtP+rwwR0jRZKc+lV849n5c9s="
+}
