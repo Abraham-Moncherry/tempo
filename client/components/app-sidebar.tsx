@@ -3,20 +3,11 @@
 import * as React from "react";
 import {
   IconCamera,
-  IconChartBar,
   IconDashboard,
-  IconDatabase,
   IconFileAi,
   IconFileDescription,
-  IconFileWord,
-  IconFolder,
-  IconHelp,
-  IconInnerShadowTop,
   IconListDetails,
-  IconReport,
-  IconSearch,
   IconSettings,
-  IconUsers,
 } from "@tabler/icons-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -104,13 +95,14 @@ const data = {
 };
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
+  console.log(`status: ${status}, image: ${session?.user?.image}`);
 
-  const user = {
+  const user = React.useMemo(() => ({
     name: session?.user?.name ?? "username",
     email: session?.user?.email ?? "user@email.com",
-    avatar: session?.user?.image ?? "/avatars/shadcn.jpg",
-  };
+    avatar: session?.user?.image || "https://lh3.googleusercontent.com/a/ACg8ocJ-pXhZapKussoISrZzd_03V8KDBH0ucb_N2YkiJjEQbCOcCQzp=s96-c",
+  }), [session?.user]);
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
