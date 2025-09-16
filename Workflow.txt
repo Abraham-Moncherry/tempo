@@ -5,3 +5,8 @@ auth
 - confgure the routes correctly
 - connect the ui compoments to the endpoints
 - sign up page
+
+strava 
+
+
+strong
