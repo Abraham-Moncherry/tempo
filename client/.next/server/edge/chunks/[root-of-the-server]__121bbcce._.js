@@ -11,8 +11,48 @@ const mod = __turbopack_context__.x("node:async_hooks", () => require("node:asyn
 
 module.exports = mod;
 }),
-"[project]/Developer/Projects/tempo/client/middleware.ts [middleware-edge] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/Developer/Projects/tempo/client/middleware.ts [middleware-edge] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
+__turbopack_context__.s([
+    "config",
+    ()=>config,
+    "default",
+    ()=>middleware
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$api$2f$server$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/node_modules/next/dist/esm/api/server.js [middleware-edge] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Developer/Projects/tempo/client/node_modules/next/dist/esm/server/web/exports/index.js [middleware-edge] (ecmascript)");
+;
+const protectedRoutes = [
+    "/dashboard"
+];
+function middleware(request) {
+    const { pathname } = request.nextUrl;
+    // Skip middleware for auth callbacks
+    if (pathname.startsWith("/api/auth/")) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
+    }
+    const isProtected = protectedRoutes.some((route)=>pathname.startsWith(route));
+    if (isProtected) {
+        // Check for session cookie
+        const sessionCookie = request.cookies.get("authjs.session-token") || request.cookies.get("__Secure-authjs.session-token");
+        if (!sessionCookie) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/login", request.url));
+        }
+    }
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
+}
+const config = {
+    matcher: [
+        /*
+         * Match all request paths except for the ones starting with:
+         * - api/auth (auth routes)
+         * - _next/static (static files)
+         * - _next/image (image optimization files)
+         * - favicon.ico (favicon file)
+         */ '/((?!api/auth|_next/static|_next/image|favicon.ico).*)'
+    ]
+};
 }),
 ]);
 

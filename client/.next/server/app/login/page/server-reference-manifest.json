@@ -4,7 +4,7 @@
       "workers": {
         "app/login/page": {
           "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
+          "async": true,
           "exportedName": "login",
           "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
         }
@@ -13,6 +13,21 @@
         "app/login/page": "action-browser"
       },
       "exportedName": "login",
+      "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
+    },
+    "7f8308717d7f8f092a11bed032926e04f3cc50c4ad": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "loginWithEmail",
+          "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser"
+      },
+      "exportedName": "loginWithEmail",
       "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
     }
   },
