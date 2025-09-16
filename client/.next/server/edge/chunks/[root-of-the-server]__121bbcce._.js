@@ -26,19 +26,31 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tem
 const protectedRoutes = [
     "/dashboard"
 ];
-async function middleware(request) {
-    // With database sessions, we check for the session cookie
-    const sessionCookie = request.cookies.get("authjs.session-token") || request.cookies.get("__Secure-authjs.session-token");
+function middleware(request) {
     const { pathname } = request.nextUrl;
+    // Skip middleware for auth callbacks
+    if (pathname.startsWith("/api/auth/")) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
+    }
     const isProtected = protectedRoutes.some((route)=>pathname.startsWith(route));
-    if (isProtected && !sessionCookie) {
-        return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/login", request.url));
+    if (isProtected) {
+        // Check for session cookie
+        const sessionCookie = request.cookies.get("authjs.session-token") || request.cookies.get("__Secure-authjs.session-token");
+        if (!sessionCookie) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/login", request.url));
+        }
     }
     return __TURBOPACK__imported__module__$5b$project$5d2f$Developer$2f$Projects$2f$tempo$2f$client$2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$exports$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["NextResponse"].next();
 }
 const config = {
     matcher: [
-        "/dashboard/:path*"
+        /*
+         * Match all request paths except for the ones starting with:
+         * - api/auth (auth routes)
+         * - _next/static (static files)
+         * - _next/image (image optimization files)
+         * - favicon.ico (favicon file)
+         */ '/((?!api/auth|_next/static|_next/image|favicon.ico).*)'
     ]
 };
 }),

@@ -4,7 +4,7 @@
       "workers": {
         "app/dashboard/page": {
           "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
+          "async": true,
           "exportedName": "logout",
           "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
         }
