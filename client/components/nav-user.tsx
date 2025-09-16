@@ -23,6 +23,7 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 import { logout } from "@/lib/actions/auth";
+import { Accounts } from "./accounts";
 
 export function NavUser({
   user,
@@ -34,7 +35,7 @@ export function NavUser({
   };
 }) {
   const { isMobile } = useSidebar();
-  console.log("NavUser avatar URL:", user.avatar);
+
   return (
     <SidebarMenu>
       <SidebarMenuItem>
@@ -90,8 +91,7 @@ export function NavUser({
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
               <DropdownMenuItem>
-                <IconUserCircle />
-                Account
+                <Accounts user={user} />
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />

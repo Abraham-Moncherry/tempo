@@ -98,11 +98,16 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { data: session, status } = useSession();
   console.log(`status: ${status}, image: ${session?.user?.image}`);
 
-  const user = React.useMemo(() => ({
-    name: session?.user?.name ?? "username",
-    email: session?.user?.email ?? "user@email.com",
-    avatar: session?.user?.image || "https://lh3.googleusercontent.com/a/ACg8ocJ-pXhZapKussoISrZzd_03V8KDBH0ucb_N2YkiJjEQbCOcCQzp=s96-c",
-  }), [session?.user]);
+  const user = React.useMemo(
+    () => ({
+      name: session?.user?.name ?? "username",
+      email: session?.user?.email ?? "user@email.com",
+      avatar:
+        session?.user?.image ||
+        "https://lh3.googleusercontent.com/a/ACg8ocJ-pXhZapKussoISrZzd_03V8KDBH0ucb_N2YkiJjEQbCOcCQzp=s96-c",
+    }),
+    [session?.user]
+  );
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
@@ -126,7 +131,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={user} />
