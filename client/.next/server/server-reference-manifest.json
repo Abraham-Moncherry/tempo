@@ -2,6 +2,12 @@
   "node": {
     "7f642aded3dfae39a97df57c097b06eeb1af3a34a3": {
       "workers": {
+        "app/dashboard/calendar/page": {
+          "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/dashboard/calendar/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "logout",
+          "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts"
+        },
         "app/dashboard/page": {
           "moduleId": "[project]/Developer/Projects/tempo/client/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Developer/Projects/tempo/client/lib/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -10,6 +16,7 @@
         }
       },
       "layer": {
+        "app/dashboard/calendar/page": "action-browser",
         "app/dashboard/page": "action-browser"
       },
       "filename": "Developer/Projects/tempo/client/lib/actions/auth.ts",

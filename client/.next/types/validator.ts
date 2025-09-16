@@ -47,6 +47,12 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 }
 
 
+// Validate ../../app/dashboard/calendar/page.tsx
+{
+  const handler = {} as typeof import("../../app/dashboard/calendar/page.js")
+  handler satisfies AppPageConfig<"/dashboard/calendar">
+}
+
 // Validate ../../app/dashboard/page.tsx
 {
   const handler = {} as typeof import("../../app/dashboard/page.js")
@@ -80,6 +86,12 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 
 
 
+
+// Validate ../../app/dashboard/layout.tsx
+{
+  const handler = {} as typeof import("../../app/dashboard/layout.js")
+  handler satisfies LayoutConfig<"/dashboard">
+}
 
 // Validate ../../app/layout.tsx
 {
